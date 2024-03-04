@@ -1,0 +1,137 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+	color: black;
+	scroll-behavior: smooth;
+}
+body{
+	background-image: url(images/waves_.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+}
+.main{
+	width: 1000px;
+	margin: auto;
+	background: url(images/headerbg.jpg) fixed ;
+	background-size: 100%;
+	border-bottom: 10px solid #0083ce;
+}
+.main2{
+	width: 1000px;
+	margin: auto;
+	background-image: url(images/3.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+.main3{
+	width: 1000px;
+	margin: auto;
+	background: url(images/1.jpg) fixed ;
+	background-size: cover;
+}
+.main4{
+	width: 1000px;
+	margin: auto;
+	background: url(images/2.jpg) fixed center ;
+	background-size: cover;
+}
+.main5{
+	width: 1000px;
+	margin: auto;
+	background: url(images/banner-7.jpg) fixed center ;
+	background-size: cover;
+}
+.main6{
+	width: 1000px;
+	margin: auto;
+	background: url(images/banner-7.jpg) fixed center ;
+	background-size: cover;
+}
+.block{
+	width: 100%;
+	background: url(images/gridtile.png);
+}
+.row1logo{
+	text-align: center;
+	padding-top: 10px;
+}
+.row1logo img{
+	width: 340px;
+	
+	margin: 0px;
+}
+.row1text{
+	width: 300px;
+	font-size: 28px;
+	color: white;
+	padding: 15px 0px;
+	border-top: 3px solid #27E0FF ;
+	border-bottom: 3px solid #27E0FF ;
+	margin: 60px auto;
+}
+.row1menu{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.row1menu a{
+	color: white;
+}
+.row1menu1:last-child{
+	border-right: none;
+}
+.row1menu1{
+	margin: 15px 15px;
+	padding: 10px 24px 10px 0px;
+	border-right: solid white 1px ;
+	color: white;
+}
+.Con{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #0000006e;
+	background-size: cover;
+}
+.ho{
+	width: 200px;
+	margin: auto;
+
+}
+.home{
+	border: 8px solid white;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	padding: 5px;
+}
+.context{
+	width: calc(1000 - 20); 
+	font-size: 17px;
+	line-height: 35px;
+	text-align: justify;
+	text-align: center;
+	padding: 60px 10px;
+	background-color: white;
+}
+.ali {
+	padding-top: 83px;
+}
+.context img {
+	margin-top: 60px;
+}
+.context1{
+	margin-top: 50px;
+	font-size: 30px;
+}
+.main6 p:first-child{
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+.main6 p{
+	font-size: 20px;
+}

@@ -1,0 +1,122 @@
+*{
+    list-style: none;
+}
+.logo_image{
+    max-width: 15%;
+    z-index: 999;
+}
+.logo_image2{
+    max-width: 40%;
+}
+.brown_bg{
+    background: #BE8553;
+    border: 1px solid #BE8553 !important;
+}
+#basic-navbar-nav , .navbar-toggler{
+    display: none;
+}
+.offcanvas-header{
+    align-items: start;
+}
+.colour_change{
+    color: #BE8553;
+}
+.brown_bg:hover{
+    border:1px solid #BE8553 !important;
+    color: #BE8553 !important;
+    background-color: white !important;
+}
+.colour_blue{
+    color: #062f43!important;
+    font-weight: bolder;
+}
+.social_media{
+    width: 40px;
+    height: 40px;
+    /* margin: 0px 10px; */
+    border-radius: 50%;
+    background-color: #062f43;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offcanvas{
+    width: 366px !important;
+}
+.display_hide{
+    display: none;
+}
+.display_show{
+    display: flex;
+    position: fixed;
+    max-width: 1205px;
+    top: 40px;
+    padding: 16px;
+    left: 131px;
+    z-index: 9999999999;
+}
+.border_top-bottom{
+    width: 223%;
+    border-top:3px solid #BE8553 ;
+    border-bottom:3px solid #BE8553 ;
+    z-index: 999999;
+    display: none;
+    transition: 1s;
+}
+.samosa{
+    height: 30px;
+    width: 30px;
+    background: #BE8553;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-bottom: 1px solid #BE8553;
+    transform: rotate(134deg) !important;
+    position: absolute;
+    top: 51px;
+    left: 39px;
+    /* display: none; */
+    opacity: 0;
+    /* transition: 1s; */
+    /* z-index: -9999999999; */
+}
+.click_and_show:hover .samosa , .click_and_show:hover .border_top-bottom {
+    display: block;
+    opacity: 1;
+}
+.border_top-bottom>li:hover{
+    background-color: #be855330;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width:200px) and (max-width:576px){
+    .logo_image{
+        max-width: 34%;
+    }
+    .display_show{
+        max-width: 556px;
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width:992px){
+    .logo_image{
+        max-width: 20%;
+    }
+    .display_show{
+        max-width: 556px;
+    }
+}
+
+@media only screen and (min-width:993px) and (max-width:1024px){
+    .display_show{
+        max-width: 973px;
+        left: 40px;
+    }
+}
+
+

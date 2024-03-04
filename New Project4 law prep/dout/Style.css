@@ -1,0 +1,183 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+}
+.main{
+	width: 100%;
+}
+.row1{
+	width: 1400px;
+	margin: auto;
+	background: #fcd21c;
+	display: flex;
+	justify-content: space-between;
+}
+.row11{
+	width: 100%;
+	background: #fcd21c;
+}
+.row1menu ul{
+	display: flex;
+	margin:50px 50px 0px 0px;
+}
+.row1menu ul li{
+	font-size: 18px;
+	border-radius: 20px;
+	padding: 7px 14px; 
+}
+.row1menu ul li:hover{
+	background-color: white;
+}
+.row1menu ul button{
+	background-color: red;
+	color: white;
+	padding: 10px 19px;
+	border: none;
+	margin-left: 35px;
+
+	border-radius: 5px;
+}
+.row1menu ul button:hover{
+	background-color: white;
+	color: red;
+}
+.row1 img{
+	width: 200px;
+	margin: 15px;
+}
+.row2{
+	background: url(images/online-coaching-bg.jpg);
+	background-size: cover;
+	
+}
+.row21{
+	width: 1200px;
+	margin: auto;
+	display: flex;
+}
+.bannerleft{
+	width: 50%;
+}
+.bannerleft1{
+	width: 200px;
+	margin-top: 152px;
+	background: url(images/red-label.png) no-repeat ;
+	background-size: cover;
+	padding: 7px 22px;
+	color: white;
+}
+.bannerleft h1{
+	margin-top: 45px;
+	font-size: 55px;
+}
+.bannerleft h3{
+	margin-top: 41px;
+	font-size: 22px;
+}
+.bannerleft button{
+	background: white;
+	color: black;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 20px;
+	margin: 39px 0px;
+	border: 1px black solid;
+}
+.bannerleft button:hover{
+	color: red;
+	border: 1px red solid;
+}
+.bannerright{
+	width: 50%;
+}
+.bannerright1{
+	display: flex;
+	padding-left: ;
+
+	margin: 113px 106px;
+}
+.bannerright1 h3{
+	font-size: 28px;
+	text-align: center;
+	padding-top: 20px;
+}
+.row3{
+	width: 1200px;
+	margin: auto;
+}
+.yellow{
+	margin: 60px auto;
+	width: 400px;
+	font-size: 50px;
+	font-weight: bold;
+	background: url(images/yellow-label.png);
+	background-size: cover;
+	padding-left: 25px;
+}
+.row3 p{
+	margin: auto;
+	width: 90%;
+	text-align: center;
+	font-size: 21px;
+}
+.img{
+	margin-top: 63px;
+	display: flex;
+}
+.img img{
+	margin-right: 38px;
+}
+.img h4{
+	font-size: 40px;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.img h5{
+	font-size: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+.row4{
+	background: #f2f3f4;
+	width: 100%;
+	height: 1101px;
+	position: relative;
+	padding-top: 5px;
+}
+.result{
+	width: 1281px;
+	margin: auto;
+	margin-top: 15px;
+	border: 20px white solid;
+	border-radius: 15px;
+	margin-bottom: -162px;
+}
+.yellobanner{
+	background: url(images/curvy-top.png);
+	position: absolute;
+	right: 0px;
+	width: 591px;
+	height: 326px;
+}
+.row5{
+	width: 100%;
+	background: #fcd21c;
+	height: 500px;
+}
+.row51{
+	display: flex;
+	width: 1200px;
+	margin: auto;
+}
+.dow{
+	width: 30%;
+	background-color: white;
+	margin: 0% 5%;
+}
+.row51 .dow img{
+	text-align: center;
+	justify-items: center;
+}

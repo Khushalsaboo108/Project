@@ -1,0 +1,380 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+}
+.main{
+	width: calc(100% - 10px);
+	display: flex;
+	position: sticky;
+	background: white;
+	top: 0px;
+	box-shadow: 0px 0px 15px #00000061;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 5px;
+}
+.logo{
+	width: 180px;
+}
+.logo>img{
+	width: 100%;
+}
+.menu>ul{
+	display: flex;
+}
+.menu>ul>li>a{
+	padding-left: 10px;
+	text-transform: uppercase;
+/*	font-size: 20px;*/
+}
+.menu>ul>button{
+	margin-left: 10px;
+}
+.mainimages>img{
+	width: 100%;
+}
+.background{
+	width: 100%;
+	background: url(images/blue.webp) center;
+	background-size: cover;
+	padding-top: 20px;
+}
+.forflex{
+	width: 1240px;
+	margin:auto;
+	display: flex;
+	align-items: center;
+}
+.left{
+	width: 68%;
+	margin-right: 2%;
+}
+.left>h1{
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	font-family: sans-serif;
+	font-weight: 600;
+	padding-top: 20px;
+}
+.left>h2{
+	color: #df7f18;
+	text-align: center;
+	font-size: 40px;
+	font-family: sans-serif;
+	font-weight: 600;
+	padding: 20px 0px;
+	line-height: 49px;
+}
+.left>p{
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: 600;
+	line-height: 30px;
+}
+.left1{
+	padding-bottom: 40px;
+}
+.left1part{
+	display: flex;
+}
+.left1part1{
+	width: 45%;
+	padding-right: 2%;
+	border-right: 1px solid #df7f18;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 24px;
+	display: flex;
+	flex-direction: column ;
+	justify-content: center;
+	align-items: center;
+}
+.left1part2{
+	width: 50%;
+	margin-top: 24px;
+/*	padding-right: 2%;*/
+/*	border-right: 1px solid #df7f18;*/
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: flex;
+	flex-direction: column ;
+	justify-content: center;
+	align-items: center;
+}
+.whight{
+	color: white;
+	display: flex;
+	margin-bottom: 10px;
+/*	margin-top: 15px;*/
+}
+.left1part1>p{
+	color: #df7f18;
+	font-weight: 500;
+	font-size: 20px;
+}
+.left1part2>p{
+	color: #df7f18;
+	font-weight: 500;
+	font-size: 20px;
+}
+.whight>h2{
+	color: white;
+}
+.whight>img{
+	width: 24px;
+	display: inline;
+	margin-right: 5px;
+}
+.right{
+	width: calc(30% - 30px);
+	background: white;
+	border-radius: 15px;
+	padding: 20px 15px;
+}
+.right>h2{
+	text-align: center;
+	color: #df7f18;
+}
+.right>form>input{
+	width: calc(100% - 6px);
+	border: none;
+	border-bottom: 1px solid gray;
+	margin-top: 30px;
+	padding: 2px 0px;
+	padding-bottom: 4px;
+	padding-left: 6px;
+}
+.right>form>input:nth-child(4){
+	padding-bottom: 60px;
+}
+.right>form>button{
+	border-radius: 36px;
+	border: none;
+	color: white;
+	font-size: 20px;
+	margin-top: 35px;
+	background: -webkit-linear-gradient( #df7f18 0%, #cd2721 99%);
+	padding:19px 51px;
+}
+.row3{
+	width: 1240px;
+	margin: auto;
+	margin-top: 58px;
+}
+.row3>h2{
+	text-align: center;
+	font-size:40px ;
+	font-weight: 600;
+}
+.row3>h3{
+/*	text-align: center;*/
+	font-size:30px ;
+	font-weight: 600;
+}
+.forimages{
+	width: 100%;
+	margin: 15px 0px;
+}
+.forimages>img{
+	width: 23%;
+	margin: 0px 0.5%;
+}
+.logo2{
+	width: 270px;
+/*	text-align: center;*/
+	margin:20px auto;
+
+}
+.logo2>img{
+	width: 100%;
+/*	text-align: center;*/
+}
+.row3>p{
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+}
+.row4{
+	width: 1340px;
+	margin: auto;
+}
+.near{
+	display: flex;
+	flex-wrap: wrap;
+}
+.near1{
+	flex-basis: 12%;
+	margin: 2% 2%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.near2{
+	flex-basis: 12%;
+	margin: 2% 2%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.near2>img{
+	width: 50%;
+	padding-bottom: 15px;
+}
+.near2>p{
+	font-size: 16px;
+	font-weight: 600;
+}
+.near1>img{
+	width: 100%;
+}
+.amenities{
+	width: 1240px;
+	margin: auto;
+	margin-top: 58px;
+	display: flex;
+	align-items: center;
+	padding-bottom: 20px;
+	border-bottom: 1px solid gray;
+}
+.amenities>button{
+	border: none;
+	background: #cd2721;
+	color: white;
+	padding: 15px;
+	font-size: 18px;
+	margin-right: 20px;
+}
+.amenities>p{
+	margin-right: 20px;
+	font-size: 18px;
+	font-weight: 400;
+}
+.location{
+	width: 1000px;
+	margin: auto;
+}
+.location>img{
+	margin-top: 30px;
+	width: 100%;
+}
+.row3>iframe{
+	width: 100%;
+	height: 500px;
+	margin-top: 25px;
+}
+.part1{
+	display: flex;
+/*	margin-top: 80px;*/
+	width: 1240;
+/*	align-items: center;*/
+/*	justify-content: center;*/
+}
+.leftsec{
+	width: 25%;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+.leftsec>img{
+	width: 100%;
+}
+.rightsec{
+	width: calc(73% - 30px);
+	padding:15px;
+}
+.rightsec>h2{
+	text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px
+}
+.form1{
+	display: flex;
+	flex-wrap: wrap;
+}
+.form1>form>input{
+	width: 100px;
+	margin: 5px 3px;
+	padding: 10px 301px 10px 15px;
+}
+.form1>form>input:nth-child(5){
+	padding: 10px 731px 128px 15px;
+}
+.form1>form>button{
+	width: 854px;
+	border: none;
+	margin-top: 15px;
+	font-size: 20px;
+	padding: 10px;
+	background: #cd2721;
+}
+.fixed{
+	position: fixed;
+	top: 212px;
+	right: 15px;
+	z-index: 5;
+}
+.fixed1{
+	width: 50px;
+	height: 50px;
+	border: 1px solid white;
+	border-radius: 50%;
+	position: relative;
+}
+.fixed1>img{
+	width: 100%;
+	z-index: 999;
+}
+.fixed1>P{
+	background: #36ba21;
+	position: absolute;
+	padding: 10px 29px;
+	border-radius: 35px;
+	top: 6px;
+/*	text-align: left;*/
+	left: -115px;
+	color: white;
+	transform-origin: right;
+	transform: scaleX(0);
+	transition: 1s;
+	z-index: -2;
+}
+.fixed1:hover P{
+	transform: scaleX(1.2);
+}
+.row8{
+	background: url(images/footer.webp) center;
+	background-size: cover;
+	padding: 20px 0px;
+}
+.leftsec>h5{
+	color: white;
+	font-size: 18px;
+	padding-top: 87px;
+}
+.leftsec>img{
+	width: 100%;
+	padding-top: 25px;
+}
+.leftsec>h6>a{
+	color: white;
+	font-size: 18px;
+/*	padding-top: 10px;*/
+}
+.rightsec>img{
+	width: 40%;
+/*	padding: 0px 15px;*/
+}
+.rightsec>p{
+	color: white;
+	line-height: 23px;
+	font-size: 18.9px;
+	padding-top: 25px;
+}

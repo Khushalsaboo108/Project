@@ -1,0 +1,54 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: black;
+}
+@keyframes for-all{
+	0%{
+		transform: scaleY(0.5);
+	}
+	50%{
+		transform: scaleY(1.2);
+	}
+	100%{
+		transform: scaleY(0.5);
+	}
+}
+.google{
+	width: 500px;
+	height: 300px;
+	margin: 100px auto;
+	justify-content: center;
+	display: flex;
+/*	border: 1px solid red;*/
+}
+.red{
+	flex-basis: 19px;
+	height: 165px;
+	background: red;
+	margin-right: 43px;
+	animation: for-all 3s 0s infinite linear;
+}
+.blue{
+	flex-basis: 19px;
+	height: 165px;
+	background: blue;
+	margin-right: 43px;
+	animation: for-all 3s 1s infinite linear;
+}
+.green{
+	flex-basis: 19px;
+	height: 165px;
+	background: green;
+	margin-right: 43px;
+	animation: for-all 3s 2s infinite linear;
+}
+.yello{
+	flex-basis: 19px;
+	height: 165px;
+	background: yellow;
+	margin-right: 43px;
+	animation: for-all 3s 3s infinite linear;
+}

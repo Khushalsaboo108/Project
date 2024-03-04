@@ -1,0 +1,43 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+    .menu{
+        display: block;
+    }
+    .menu>div>img{
+        width: 280px;
+    }
+    .menu1{
+        display: none;
+    }
+    .row213{
+        flex-direction: column;
+    }
+    .part3 , .row5 , .flex{
+        flex-direction: column;
+    }
+    .allimages , .part41{
+        flex-basis: 100%;
+    }
+    .viedo33 , .pointes , .map , .Book>form{
+        flex-direction: column;
+    }
+    .contact{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: sticky;
+        bottom: 0px;
+        z-index: 9999;
+    }
+    .call{
+        flex-basis: 34%;
+        background: linear-gradient(#29779e,#48467c);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        padding: 15px 0px;
+        border: 2px solid white;
+        
+    }
+}

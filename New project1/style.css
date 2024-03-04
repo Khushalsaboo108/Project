@@ -1,0 +1,608 @@
+.body{
+	margin: 0px; 
+	padding: 0px;
+	font-family: Arial;
+}
+.part1{
+	width: 100%;
+	background: url(images/bg_img.jpg);
+}
+.pa2{
+	width: 100%;
+	background: url(images/bg_innerpage.jpg) no-repeat;
+	margin: auto;
+}
+.clear{
+	clear: both;
+}
+.images{
+	float: left;
+	padding-top: 15px;
+}
+.contact{
+	float: right;
+	text-align: right;
+	line-height: 25px;
+	padding-top: 15px;
+	font-size: 25px;
+	color: lightskyblue;
+}
+.menue1{
+	width: 1000px;
+	margin: auto;
+	background: url(images/menu_rept.jpg);
+	border-radius: 10px;
+	margin-top: 25px;
+}
+.menue2{
+	float: left;
+	font-size: 17px;
+	margin: 15px 10px;
+}
+.fortex{
+	padding-top: 20px;
+	font-size: 25px;
+}
+.high{
+	width: 30%;
+	float: left;
+	margin-left: 15px;
+	padding-bottom: 18px ;
+	margin-bottom:25px ;
+}
+.high2{
+	width: 30%;
+	float: left;
+	margin-left: 15px;
+	padding-right: 10px;
+	border-right:1px lightblue solid ;
+	padding-bottom: 18px;
+	margin-bottom:25px ;
+}
+.high1{
+	padding: 20px 0px 0px 20px ;
+	font-size: 15px;
+}
+.img{
+	width: 25%;
+	float: left;
+	padding-top: 15px;
+}
+.cont{
+	width: 75%;
+	float: left;
+	padding-top: 15px;
+	text-align: justify;
+	font-size: 12px;
+}
+.backimg{
+	background: url(images/midback.png);
+	width: 964px;
+	height: 233px;
+	margin: auto;
+}
+.all{
+	width: 1000px;
+	margin: auto;
+}
+.line{
+	border: 1px lightblue solid;
+}
+.part3{
+	width: 28%;
+	float: left;
+	margin-left: 9px;
+	margin-top: 10px;
+	padding-right: 40px;
+	margin-bottom: 6px;
+}
+.part31{
+	width: 25%;
+	float: left;
+}
+.part32{
+	width: 75%;
+	float: left;
+	font-size: 14px;
+	padding-top: 10px;
+}
+.part4{
+	width: 30%;
+	float: left;
+}
+.part41{
+	width: 65%;
+	float: left;
+	margin-left: 5%;
+}
+.domain{
+	width: 25%;
+	float: left;
+	padding-top: 25px;
+}
+.domainname{
+	width: 75%;
+	float: left;
+	text-align: justify;
+}
+.domaintext{
+	margin-bottom: -10px;
+	font-weight: bolder;
+	color: blue;
+}
+.test{
+	margin-left: 20px;
+}
+.Kabran{
+	text-align: right;
+	font-weight: bolder;
+}
+.line1{
+	width: 100%;
+	height: 10px;
+	background: url(images/arrow.png);
+	margin-top: 40px;
+}
+.part5{
+	width: 30%;
+	margin-right: 3%;
+	float: left;
+}
+.part52{
+	width: 30%;
+	margin-right: 3%;
+	float: right;
+	text-align: right;
+}
+.quick{
+	color: red;
+	padding-top: 50px;
+	margin-bottom: 20px;
+	font-weight: bolder;
+	font-size: 20px;
+}
+.img2{
+	float: left;
+	padding-top: 6px;
+	padding-left: 5px;
+}
+.cont2{
+	float: left;
+	padding-top: 2px;
+	font-size: 12px;
+	margin-left: 5px;
+	padding-left: 5px;
+}
+.cont3{
+	font-size: 12px;
+	border-right: 1px black solid;
+	padding-right: 5px;
+	margin: 10px 0px;
+}
+.cont4{
+	font-size: 12px;
+	margin: 10px 0px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+.soc{
+	width: 1000px;
+	margin: auto;
+	text-align: right;
+	margin-top: 30px;
+}
+.img3{
+	float: right;
+	margin-bottom: 50px;
+}
+.left{
+	float: left;
+	margin: 15px 0px 10px 20px;
+}
+.right{
+	width: 70%;
+	float: left;
+	margin-left: 35px;
+}
+.images2{
+	width: 234px;
+	height: 383px;
+	background: url(images/leftpanel.png) no-repeat;
+	border-radius: 10px;
+	border: 1px blue solid;
+}
+.part22{
+	color: red;
+	font-weight: bold;
+	padding: 16px;
+	text-align: center;
+	font-size: 25px;
+}
+.part221{
+	padding: 5px;
+	padding-left: 12px;
+	padding-right: 25px;
+	font-size: 13px;
+	padding-bottom: 10px;
+	color: blue;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.images3{
+	width: 234px;
+	height: 383px;
+	background: url(images/leftpanel.png) no-repeat;
+	margin-top: 40px;
+	border-radius: 10px;
+	border: 1px blue solid;
+}
+.text1{
+	padding-left: 15px;
+	width: 25px;
+}
+.text2{
+	height: 75px;
+}
+.text3{
+	float: right;
+	font-size: 13px;
+	padding-top: 15px;
+	padding-right: 15px;
+	color: blue;
+}
+.right p{
+	line-height: 25px;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+.right h4{
+	font-weight: bold;
+	color: blue;
+	font-size: 25px;
+}
+.right h3{
+	font-weight: bolder;
+	font-size: 25px;
+	padding-left: 25px;
+}
+.text123{
+	text-align: center;
+}
+.righr123{
+	width: 28.9%;
+	float: left;
+	margin: 5px 10px;
+}
+.righr1234{
+	width: 28.9%;
+	float: left;
+	margin: 40px 10px;
+}
+.ima{
+	border: 1px gray solid;
+}
+.career{
+	font-weight: bold;
+	font-size: 14px;
+}
+.career1{
+	width: 25%;
+	font-size: 15px;
+	padding-top: 12px;
+	padding-left: 2px;
+	float: left;
+}
+.career11{
+	width: 70%;
+	font-size: 16px;
+	padding-top: 12px;
+	float: left;
+	text-align: justify;
+}
+.career111{
+	width: 2%;
+	float: left;
+	padding-top: 12px;
+	padding-right: 10px;
+}
+.right button{
+	float: right;
+	font-size: 18px;
+
+}
+.photo{
+	float: left;
+	margin-right: 15px;
+	width: 15px;
+	height: 12px;
+}
+.photo1{
+	float: right;
+	padding-right: 277px;
+	width: 15px;
+	height: 12px;
+}
+.photo12{
+	float: right;
+	padding-right: 434px;
+	width: 15px;
+	height: 12px;
+}
+.photo123{
+	float: right;
+	padding-right: 35px;
+	width: 15px;
+	height: 12px;
+}
+.photo1234{
+	float: right;
+	padding-right: 125px;
+	width: 15px;
+	height: 12px;
+}
+.client{
+	float: left;
+	text-align: justify;
+	line-height: 20px;
+	font-size: 12px;
+	margin: 15px 0px;
+}
+.clients{
+	float: left;
+	width: 600px;
+}
+
+.name{
+	float: right;
+	text-align: right;
+	margin: 10px 0px;
+	font-size: 12px;
+	font-weight: bolder;
+}
+.leftclients{
+	float: left;
+	width: 50%;
+}
+
+.rightclients{
+	float: right;
+	width: 50%;
+}
+.form{
+	padding: 20px 0px 5px 0px ;
+	font-size: 13px;
+	margin-left: 20px;
+}
+.text12{
+	width: 85%;
+	height: 20px;
+	float: left;
+	padding-left: 20px;
+}
+.text1234{
+	width: 268px;
+	height: 25px;
+	border: 1px gray solid;
+}
+.text12345{
+	width: 268px;
+	height: 25px;
+	border: 1px gray solid;
+	float: left;
+}
+.button{
+	float: right;
+	margin-right: 213px;
+	margin-top:-27px ;
+	border: 0px solid black;
+	background: white;
+}
+.text12346{
+	width: 268px;
+	height: 25px;
+	border: 1px gray solid;
+	color: gray;
+}
+.rightrequest{
+	width: 50%;
+	float: left;
+}
+.leftrequest{
+	width: 50%;
+	float: left;
+}
+.rightrequest select{
+	width: 70px;
+	float: left;
+	height: 25px;
+}
+.text12347{
+	width: 224px;
+	height: 25px;
+	border: 1px gray solid;
+	color: gray;
+}
+.checkbox{
+	font-size: 13px;
+	height: 50px;
+}
+.area{
+	width: 85%;
+	height: 202px;
+	float: left;
+	padding-left: 20px;
+}
+.file{
+	width: 78%;
+	height: 20px;
+	float: left;
+	margin-left: 20px;
+	border: 1px gray solid;
+}
+.form1{
+	padding: 0px 0px 25px 0px ;
+	font-size: 13px;
+	margin-left: 20px;
+}
+.left1{
+	width: 49%;
+	height: 713px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 5px;
+}
+.leftSearch{
+	width: 49%;
+	height: 755px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 5px;
+}
+.leftECommerce{
+	width: 49%;
+	height: 606px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 5px;
+}
+.leftMobile{
+	width: 49%;
+	height: 557px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 5px;
+}
+.leftPsd {
+	width: 49%;
+	height: 537px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 5px;
+}
+.leftDomain  {
+	width: 49%;
+	height: 449px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 5px;
+}
+.right1{
+	width: 50%;
+	float: left;
+	font-size: 12px;
+}
+.home{
+	float: left;
+	padding-top: 3px;
+}
+.home1{
+	float: left;
+	margin-right: 10px;
+}
+.headding{
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	font-size: 20px;
+}
+.rightour{
+	margin-top: 45px;
+	font-weight: bold;
+	color: blue;
+	font-size: 20px;
+	width: 300px;
+}
+.para{
+	padding-bottom: 15px;
+	line-height: 30px;
+	font-size: 13px;
+}
+.Portfolio{
+	float: left;
+	width: 32% ;
+	font-size: 13px;
+	color: #084a87;
+}
+.Portfoliotext{
+	margin-bottom: 20px;
+	text-align: center;
+	margin-top: 34px;
+}
+.Portfolioimg{
+	margin-left: 33px;
+}
+.Portfolioimg1{
+	margin-left: 33px;
+	margin-top: 34px;
+}
+/*.para ul{
+	margin-bottom: 20px;
+}
+.para ul li{
+	padding: 20px 5px;
+}*/
+.point{
+	padding: 7px 0px;
+}
+.point1{
+	margin-top: -31px;
+	margin-bottom: 15px;
+}
+.table{
+	text-align: center;
+
+}
+table tr td {
+	padding: 10px 8px;
+	margin: 0px 5px;
+	text-align: center;
+	font-size: 13px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 40px;
+}
+table tr th{
+	padding: 10px 8px;
+	margin: 0px 5px;
+	text-align: center;
+	font-size: 13px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 50px;
+}
+table{
+	margin: 30px 0px;
+}
+b{
+	font-size: 16px;
+	margin: 10px 0px;
+}
+.leftServices{
+	width: 45%;
+	float: left;
+}
+.rightServices{
+	width: 45%;
+	float: left;
+	margin-left: 10%;
+}
+.lefthadding{
+	font-size: 25px;
+	font-weight: bolder;
+	margin-bottom: 20px;
+	margin-top: 25px;
+}
+.lefttext{
+	font-size: 13px;
+	text-align: justify;
+}
+.leftmore{
+	font-size: 13px;
+	text-align: right;
+	margin-top: 15px;
+}
+*{
+	text-decoration: none;
+	color: black;
+	
+}

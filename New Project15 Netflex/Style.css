@@ -1,0 +1,274 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+body{
+    background: black;
+}
+header{
+    width: 100%;
+    background: url(images/IN-en-20230724-popsignuptwoweeks-perspective_alpha_website_medium.jpg) no-repeat ;
+    background-size: cover;
+    /* height: 100vh; */
+    border-bottom: 10px solid gray;
+}
+.backgray{
+    width: calc(100% - 20px);
+    padding:20px 10px;
+    background:rgba(0, 0, 0, 0.475) ;
+    /* height: 100%; */
+}
+.main{
+    max-width: 1110px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+}
+.logo>img{
+    width: 100%;
+}
+.leang{
+    /* flex-basis: 54%; */
+    display: flex;
+}
+.leang>select{
+    background: transparent;
+    color: white;
+    padding:5px 15px;
+    border-radius: 5px;
+}
+.leang>select>option{
+    color: white;
+}
+.leang>button{
+    padding: 5px 15px;
+    color: white;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+.intro{
+    max-width: 1110px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.intro>h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 220px;
+    padding: 10px 0px;
+    text-align: center;
+}
+.intro>h2{
+    color: white;
+    padding: 10px 0px;
+    font-size: 26px;
+    text-align: center;
+}
+form{
+    width: 50%;
+    margin: 20px 0px;
+    margin-bottom: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form>input{
+    flex-basis: 60%;
+    padding: 15px 5px;
+    background-color: rgba(26, 19, 15, 0.57);
+    color: lightgray;
+    margin: 0px 10px;
+    border: 1px solid gray;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+form>button{
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+}
+section{
+    max-width: 1110px;
+    padding: 90px 10px;
+    /* background: black; */
+    /* border-bottom: 10px solid gray; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.part1{
+    flex-basis: 45%;
+    padding: 20px 0px;
+    color: white;
+}
+.part1>h2{
+    font-size: 48px;
+    
+}
+.part1>h5{
+    padding: 26px 0px;
+    font-size: 28px;
+    color: white;
+}
+hr{
+    height: 5px;
+    color: gray;
+    background: gray;
+}
+.part2{
+    /* width: 50%; */
+    background: url(images/tv.png) no-repeat ;
+    height: 500px;
+    background-size: contain;
+}
+.part3{
+    flex-basis: 50%;
+    height: 500px;
+}
+.part4{
+    /* flex-basis: 50%; */
+    background: url(images/device-pile-in.png) no-repeat ;
+    height: 500px;
+    background-size: contain;
+}
+.part2>video{
+    width: 74%;
+    position: relative;
+    top: 12%;
+    left: 14%;
+    z-index: -999;
+}
+.part4>video{
+    width: 64%;
+    position: relative;
+    top: 5%;
+    left: 18%;
+    z-index: -999;
+}
+.part3>img{
+    width: 90%;
+}
+.four{
+    max-width: 1110px;
+    padding: 90px 10px;
+    /* background: black; */
+    /* border-bottom: 10px solid gray; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+.four>h2{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding: 40px 0px;
+}
+.four>ul>li{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background: #2d2d2d;
+    color: white;
+    font-size: 21px;
+    margin: 11px 0px;
+}
+.four>h4{
+    color: white;
+    margin: 20px auto;
+    font-size: 25px;
+    align-items: center;
+}
+.four>form{
+    width: 50%;
+    margin: 20px auto;
+    /* margin-bottom: 170px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.four>form>input{
+    flex-basis: 60%;
+    margin: 5px 0px;
+    padding: 15px 20px;
+    background-color: rgba(26, 19, 15, 0.57);
+    color: lightgray;
+    margin: 15px 10px;
+    border: 1px solid gray;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.four>form>button{
+    background-color: #2d2d2d;
+    color: white;
+    padding: 10px 15px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+}
+.four>h5{
+    font-size: 17px;
+    color: white;
+}
+.part68{
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 20px 0px;
+}
+.part68>ul{
+    flex-basis: 30%;
+}
+.part68>ul>li{
+    text-decoration: underline white;
+    padding: 10px 0px ;
+}
+.four>h6{
+    color: white;
+    padding: 20px 0px;
+    font-size: 15px;
+}
+.over{
+    width: 47%;
+    border: 1px solid gray;
+    border-radius: 19px;
+    padding: 10px;
+    position: relative;
+    top: -20%;
+    left: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+}
+.over>img{
+    width: 25%;
+}
+.over>h3{
+    color: white;
+    font-size: 15px;
+    margin: 0px 10px;
+}
+.over>h3>samp{
+    color: blue;
+    font-size: 15px;    
+}

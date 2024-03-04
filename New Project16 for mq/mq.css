@@ -1,0 +1,183 @@
+/* For mobile */
+@media only screen and (min-width:200px) and (max-width:766px){
+    .display {
+        display: none;
+    }
+    .imgandvid , .imgandtext , .js3 , .imagesandtext , .part5 , .part6 {
+        flex-direction: column;
+    }
+    .left1>figure{
+        width: 75%;
+        margin: auto;
+    }
+    .right1{
+        width: 100%;
+    }
+    .two{
+        width: 100%;
+    }
+    .twobutt>a{
+        flex-basis: 47%;
+        width: 45%;
+    }
+    .display12{
+        display: flex;
+        text-align: center;
+    }
+    .one {
+        flex-basis: 90%;
+    }
+    .hadding{
+        font-size: 29px;
+        font-weight: 700;
+    }
+    .border{
+        width: 28%;
+    }
+    .forpurp{
+        padding: 43px 20px;
+    }
+    .forpurp>h3{
+        font-size: 18px;
+    }
+    .left1>a{
+        padding: 20px 66px;
+    }
+    .purpleback{
+        overflow: scroll;
+    }
+    section>h2{
+    font-size: 19px;
+    font-weight: 700;
+    padding: 40px 30px;
+    padding-bottom: 50px;
+    text-align: center;
+    }
+    section>h3{
+        font-size: 25px;
+    }
+    section>p {
+        font-size: 14px;
+        padding: 20px 10px;
+        font-weight: 500;
+        align-items: center;
+        text-align: center;
+    }
+    .font{
+        font-size: 25px;
+        padding: 0px 10px;
+    }
+    .logoandimg>p{
+        font-size: 16px;
+    }
+    .font>h2{
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .text1254>p{
+        text-align: center;
+    }
+    .mqa{
+        text-align: left;
+    }
+    .mqap{
+        margin: 10px 0px;
+    }
+    .radus>p{
+        text-align: left;
+    }
+}
+/* For mobile */
+
+
+/* for tablate */
+@media only screen and (min-width:767px) and (max-width:991px){
+    .display {
+        display: none;
+    }
+    .imgandvid , .imgandtext , .js3 , .imagesandtext , .part5 , .part6 {
+        flex-direction: column;
+    }
+    .purpleback{
+        overflow: scroll;
+    }
+    .left1>figure{
+        width: 75%;
+        margin: auto;
+    }
+    .right1{
+        width: 100%;
+    }
+    .two{
+        width: 100%;
+    }
+    .twobutt>a{
+        flex-basis: 47%;
+        width: 45%;
+    }
+    .display12{
+        display: flex;
+        text-align: center;
+    }
+    .one {
+        flex-basis: 46%;
+    }
+    .hadding{
+        font-size: 29px;
+        font-weight: 700;
+    }
+    .border{
+        width: 28%;
+    }
+    .forpurp{
+        padding: 43px 36px;
+        width: 68%;
+    }
+    .forpurp>h3{
+        font-size: 18px;
+    }
+    .left1>a{
+        padding: 20px 66px;
+    }
+    section>h2{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 40px 30px;
+    padding-bottom: 50px;
+    text-align: center;
+    }
+    section>h3{
+        font-size: 25px;
+    }
+    section>p {
+        font-size: 14px;
+        padding: 20px 10px;
+        font-weight: 500;
+        align-items: center;
+        text-align: center;
+    }
+    .font{
+        font-size: 25px;
+        padding: 0px 10px;
+    }
+    .logoandimg>p{
+        font-size: 16px;
+    }
+    .font>h2{
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .text1254>p{
+        text-align: center;
+    }
+    .mqa{
+        text-align: left;
+    }
+    .mqap{
+        margin: 10px 0px;
+    }
+    .radus>p{
+        text-align: left;
+    }
+}
+/* for tablate */

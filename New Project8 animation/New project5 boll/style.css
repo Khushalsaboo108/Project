@@ -1,0 +1,58 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: black;
+}
+@keyframes updown{
+	0%{
+		top: 350px;
+	}
+	50%{
+		top: 1200px;
+		opacity: 0;
+	}
+	100%{
+		top: 350px;
+	}
+}
+@keyframes yello{
+	0%{
+		top: 0px;
+	}
+	50%{
+		top: 700px;
+/*		opacity: 0;*/
+	}
+	100%{
+		top: 0px;
+	}
+}
+.main{
+	width: 400px;
+	height: 100%;
+	position: relative;
+}
+.width{
+	width: 100px;
+	height: 100px;
+	background: white;
+	border-radius: 50%;
+	position: absolute;
+	top: 350px;
+	left: 18px;
+	z-index: 9999;
+	animation: updown 4s 0s infinite linear;
+}
+.yello{
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	border-radius: 50%;
+	position: absolute;
+	top: 0px;
+	right: 18px;
+	z-index: 9999;
+	animation: yello 3s 16s infinite linear;
+}

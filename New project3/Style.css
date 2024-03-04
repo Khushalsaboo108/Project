@@ -1,0 +1,235 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.menu{
+	display: flex;
+	/* flex-wrap: wrap; */
+	/* margin-left: 20px; */
+	width: 100%;
+	position: sticky;
+	top: 0px;
+	z-index: 999;
+	background: white;
+	box-shadow: 0px 0px 36px black;
+}
+
+.menutex{
+	padding-right: 15px;
+}
+.menutex li {
+	list-style: none;
+	display: inline-block;
+	padding: 15px;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.menutex li:first-child{
+	margin-left: 380px;
+}
+.row1{
+	width: 100%;
+	background: url(images/the-town-bg-01.jpg) fixed center;
+	background-size: cover;
+	height: 700px;
+}
+.row1 h2{
+	text-align: center;
+	color: white;
+	font-size: 45px;
+	padding-top: 250px;
+	text-shadow: 2px 2px 2px black;
+}
+.row2{
+	width: calc(100% - 100px);
+	margin:100px;
+	justify-content: left;
+}
+.text{
+	padding-top: 50px;
+	font-size: 40px;
+	color: #0089ffa6;
+}
+.row21{
+	width: 45%;
+}
+.row2 p{
+	text-align: justify;
+	font-size: 25px;
+	padding-top: 34px;
+	color: gray;
+}
+.buttion{
+	background: #3496d8 fixed;
+	color: white;
+	border-radius: 30px;
+	width: 20%;
+	padding: 10px;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 40px;
+}
+.intro{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.p1{
+	width: 30%;
+	margin: 0px 20px;
+}
+.pt{
+	text-align: justify;
+	text-align: center;
+	font-size: 20px;
+	color: gray;
+	padding-top:30px ;
+}
+.pm{
+	text-align: justify;
+	text-align: center;
+	font-size: 20px;
+	color: #3496d8;
+	padding-top:30px ;
+}
+.text1{
+	width: 90%;
+	padding-top: 50px;
+	font-size: 40px;
+	color: #0089ffa6;
+	text-align: center;
+}
+.pt1{
+	width: 55%;
+	text-align: justify;
+	text-align: center;
+	font-size: 20px;
+	color: gray;
+	margin:40px 226px;
+}
+
+
+.row4{
+	width: 100%;
+	height: 500px;
+	background: url(images/the-town-bg-02.jpg) fixed ;
+	background-size: cover;
+	height: 700px;
+	margin-top: 80px;
+}
+.line{
+	width: 19%;
+	height: 8px;
+	margin-left: 190px;
+	background-color: white;
+}
+.row4 h4{
+	width: 70%;
+	color: white;
+	font-size: 60px;
+	padding-top: 80px;
+	margin-left: 190px;
+	border-bottom: 3px solid white;
+}
+.contacttex{
+	width: 70%;
+	font-size: 23px;
+	color: white;
+	display: flex;
+	margin: 55px 186px;
+}
+
+.contact1{
+	width: 60%;
+	margin-left: 230px;
+	margin-top: 50px;
+	margin-bottom: 90px;
+	color: white;
+	font-size: 25px;
+	display: flex;
+	justify-content: space-between;
+	transition: 5sc;
+}
+.contact1 input {
+	background: transparent;
+	width: 210px;
+	height: 38px;
+	border: 1px white solid;
+	border-radius: 5px;
+	color: white;
+	font-size: 15px;
+	padding-left: 10px;
+}
+.contact1 button{
+	background: #ced4da;
+	border-radius: 5px;
+	border: 1px black solid; 
+	height: 40px;
+	width: 130px;
+	font-size: 15px;
+}
+.contact1 .hover:hover{
+	color: blue;
+}
+.menu img {
+	padding: 10px 110px;
+	margin-top: 5px;
+}
+.img{
+	width: 1000px;
+	margin: auto;
+	display: flex;
+	/* justify-content: center; */
+	/* align-items: center; */
+}
+.img123{
+	flex-basis: 30%;
+	position: relative;
+	overflow: hidden;
+}
+.img123>figure{
+	width: 98%;
+	height: 100%;
+}
+.img123>figure>img{
+	width: 100%;
+	height: 100%;
+}
+.blackhover{
+	width: 98%;
+	height: 100%;
+	background: #00000058;
+	position: absolute;
+	top: -10%;
+	opacity: 0;
+	transition: 1s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.img123:hover .blackhover{
+	opacity: 1;
+	top: 0%;
+}
+.img123:hover .borderblue{
+	opacity: 1;
+	bottom: 1px;
+}
+.borderblue{
+	width: 98%;
+	height: 6px;
+	background: blue;
+	position: absolute;
+	bottom: -10px;
+	opacity: 0;
+	transition: 0.5s;
+	transform-origin: bottom;
+}
+.blackhover>h3{
+	color: white;
+	font-size: 30px;
+	font-weight: normal;
+}
+.blackhover>h3>span{
+	font-weight: 600;
+}

@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Background Run</title>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;                
+            }
+            .main{
+                width: 600px;
+                height: 300px;
+                margin: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid black;
+            }
+            .main>div{
+                /* background-color: aqua; */
+                width: 500px;
+                height: 200px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transform-origin: left;
+                transition: 1s;
+            }
+            .main>div>h1{
+                font-size: 90px;
+            }
+            .main>div:hover{
+                background-color: aqua;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div><h1>Hover Me</h1></div>
+        </div>
+    </body>
+</html>

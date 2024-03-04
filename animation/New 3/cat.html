@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            body{
+                background: black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .cat{
+                width: 400px;
+                height: 400px;
+                position: relative;
+                 margin-top: 300px;
+            }
+            .circle{
+                width: 100%;
+                height: 100%;
+                background-color: white;
+                border-radius: 50%;
+                transform: rotate(356deg);
+                background-color: black;
+                border: 1px solid white;
+                
+            }
+            .ear{
+                width: 35%;
+                height: 55%;
+                background-color: white;
+                position: absolute;
+                top: -101px;
+                left: -84px;
+                transform: rotate(314deg);
+                border-radius: 70% 30% 0% 0% / 100% 100% 0% 0%;
+                z-index:-2;
+            }
+            .ear1{
+                width: 35%;
+                height: 55%;
+                background-color: white;
+                position: absolute;
+                top: -80px;
+                right: -101px;
+                transform: rotate(52deg);
+                border: 1px solid white;
+                border-radius: 30% 70% 0% 0% / 100% 100% 0% 0%;
+                z-index:-2;
+            }
+            .eye{
+                width: 73%;
+                height: 31%;
+                margin: auto;
+                /* border: 1px solid white; */
+                position: absolute;
+                top: 79px;
+                left: 53px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                
+            }
+            .eye1{
+                width: 40%;
+                height: 100%;
+                background-color: white;
+                border-radius: 85px 1px 149px 149px;
+                position: relative;
+            }
+            .eye2{
+                transform: rotateY(180deg);
+            }
+            .eyeboll{
+                width: 43%;
+                height: 62%;
+                background-color: black;
+                border-radius: 50%;
+                position: absolute;
+                left: 29px;
+                top: 10px;
+            }
+            .nose{
+                position: absolute;
+                top: 54%;
+                left: 50%;
+                height: 12%;
+                width: 16%;
+                background: #fff;
+                transform: translateX(-50%);
+                border-radius: 50% 50% 50% 50%/30% 30% 70% 70%;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="cat">
+            <div class="circle"></div>
+            <div class="ear"></div>
+            <div class="ear1"></div>
+            <div class="eye">
+                <div class="eye1">
+                    <div class="eyeboll"></div>
+                </div>
+                <div class="eye1 eye2">
+                    <div class="eyeboll"></div>
+                </div>
+            </div>
+            <div class="nose"></div>
+        </div>
+    </body>
+</html>

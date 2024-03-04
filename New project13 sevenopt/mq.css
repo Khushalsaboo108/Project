@@ -1,0 +1,63 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+    .menu{
+        display: none;
+    }
+    .logo1{
+        flex-basis: 62%;
+    }
+    .row21{
+        flex-direction: column;
+    }
+    .left>h3{
+        font-size: 20px;
+    }
+    .left{
+        padding-bottom: 15px;
+    }
+    .row3{
+        flex-direction: column;
+    }
+    .four{
+        flex-basis: 80%;
+        margin: 10px auto;
+    }
+    .Writing{
+        flex-direction: column;
+    }
+   .row123 , .seven , .row2>figure , .row81 , .allimages{
+    flex-direction: column;
+   }
+   .row31{
+    flex-basis: 79%;
+   }
+   .left2>h3 , .rowh2 , .row2>h2 , .row4>h3 , .left3>ul>li:first-child{
+    font-size: 22px;
+    /* font-weight: 500; */
+   }
+   .part_>h2{
+    font-size: 25px;
+   }
+   .part_>h5{
+    font-size: 15px;
+   }
+   .contact{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    bottom: 0px;
+    z-index: 9999;
+}
+.call{
+    flex-basis: 34%;
+    background: #072e59;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 15px 0px;
+    border: 2px solid white;
+    
+}
+}

@@ -1,0 +1,205 @@
+    /* Mobile screen */
+@media only screen and (min-width:200px) and (max-width:576px){
+    .butt{
+        justify-content: center;
+    }
+    .banner h1 {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .what{
+        padding: 8px;
+    }
+    .coll{
+        padding: 8px 18px;
+    }
+    .banner12{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .form12::before , .cej , .dot{
+        display: none;
+    }
+    .banner>span{
+        text-align: start;
+        padding: 0px;
+        font-size: 18px;
+        /* padding-left: 100px;*/
+    }
+    .buttion{
+        margin: 10px 0px;
+        flex-direction: column;
+    }
+    .buttions1 {
+        padding: 8px 22px;
+    }
+    .buttions{
+        padding: 6px 30px;
+    }
+    .form>form>h2{
+        font-size: 22px;
+    }
+    .form12>p{
+        padding-right: 0px;
+        font-size: 17px;
+    }
+    .form{
+        justify-content: center;
+        margin: 10px 0px;
+    }
+    .towpart1 , .fourdiv {
+        flex-direction: column;
+    }
+    .towpart{
+        margin: 10px 0px;
+        padding: 9px 16px;
+    }
+    .doctext>h2{
+        font-size: 19px;
+    }
+    .doc{
+        padding: 9px;
+    }
+    .pointes>p {
+        color: var(--heading-text-1, #0A2134);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+        padding: 11px 0px;
+    }
+    .pointes>h2 {
+        color: var(--heading-text-1, #0A2134);
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .four>h2{
+        font-size: 24px;
+    }
+    .four>p{
+        font-size: 11px;
+    }
+    .ima {
+        width: 104px;
+        border-radius: 4px;
+        margin: 0px 24px 0px 0px;
+    }
+    .four_div{
+        display: flex;
+        align-items: flex-start;
+    }
+    .pointfor{
+        width: 100%;
+        margin:16px auto;
+        flex-direction: column;
+    }
+    .certi{
+        width: 100%;
+    }
+    .text2{
+        flex-basis: 95%;
+        margin: auto;
+    }
+    .ready>h3{
+        font-size: 27px;
+    }
+    .ready>p{
+        font-size: 12px;
+    }
+    .button {
+        padding: 10px 23px;
+    }
+    .jjui h2 , .jjui h3{
+        font-size: 27px;
+    }
+}
+
+
+    /* Tablate screen */
+@media only screen and (min-width:577px) and (max-width:992px){
+    .butt{
+        justify-content: center;
+    }
+    .banner12{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .banner h1 {
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 58px;
+    }
+    .form12::before , .cej , .dot{
+        display: none;
+    }
+    .banner>span{
+        text-align: start;
+        padding-left: 100px;
+    }
+    .buttion{
+        justify-content: center;
+        font-size: 16px;
+        padding: 8px 18px;
+    }
+    .buttions{
+        font-size: 16px;
+        padding: 8px 18px;
+    }
+    .buttions1{
+        font-size: 16px;
+        padding: 8px 18px;
+    }
+    .form{
+        justify-content: center;
+        margin: 10px 0px;
+    }
+    .towpart1{
+        flex-direction: column;
+    }
+    .towpart{
+        margin: 9px 0px;
+        padding: 9px 16px;
+    }
+    .fourdiv{
+        flex-wrap: wrap;
+    }
+    .four_div{
+        flex-basis: 45%;
+    }
+    .four>h2{
+        font-size: 33px;
+    }
+    .four>p{
+        font-size: 17px;
+    }
+    .pointfor{
+        width: 100%;
+        margin: 16px auto;
+    }
+    .text2{
+        flex-basis: 95%;
+        margin: auto;
+    }
+}
+
+
+    /* big screen */
+@media only screen and (min-width:993px) and (max-width:1024px){
+
+    .banner h1 {
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 68px;
+    }
+    .form12::before , .cej , .dot{
+        display: none;
+    }
+}

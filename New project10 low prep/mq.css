@@ -1,0 +1,65 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+	.part2{
+		flex-direction: column;
+		padding:10px ;
+	}
+	.form{
+		margin: 10px 0px;
+	}
+	.row3>img{
+		width: 50%;
+		padding-top: 10px;
+	}
+	.row3>h3{
+		font-size: 28px;
+	}
+	.row31{
+		width: calc(100% - 40px);
+		flex-direction: column;
+		margin: 0px 20px;
+	}
+	.box1{
+		margin-top: 60px;
+	}
+	.box2{
+		margin-top: 54px;
+	}
+	.box3{
+		margin-top: 54px;
+	}
+	.row312{
+		width: calc(100% - 40px);
+		flex-direction: column;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.box5{
+		margin-top: 54px;
+	}
+	.mobile{
+		display: block;
+	}
+	.low{
+		display: none;
+	}
+	.twodiv1{
+		flex-direction: column;
+		
+	}
+	.left{
+		width: calc(100% - 50px);
+		margin: 15px 25px;
+	}
+	.row3>iframe{
+		width: calc(100% - 40px);
+		/*width: 100%;*/
+		margin:0px  20px;
+	}
+	.airimages>img{
+		width: 50%;
+	}
+	.topper1{
+		flex-basis: 80%;
+		margin: 20px auto;
+	}
+}

@@ -1,0 +1,168 @@
+/* For mobile */
+@media only screen and (min-width:200px) and (max-width:766px){
+    :root{
+        --orangeyello:#F76A00;
+        --fontfamily: 'Roboto', sans-serif;
+        --maxwidth: 741px;
+        --fontfam: Open, sans-serif;
+    }
+    header>ul{
+        display: none;
+    }
+    header>figure{
+        width: 56%;
+    }
+    .fordive{
+        display: block;
+        padding: 14px;
+        background: var(--orangeyello);
+        color: white;
+        margin: 0px 12px;
+    }
+    .fordive>i{
+        color: white;
+        font-size: 20px;
+    }
+    .mainimage>h1{
+        font-size: 30px;
+    }
+    .mainimage>p{
+        text-align: center;
+        font-size: 16px;
+    }
+    .mainimage>i:first-child{
+        font-size: 28px;
+    }
+    .mainimage>i:nth-child(4){
+        font-size: 28px;
+    }
+    .position1{
+        display: none;
+    }
+    .position12{
+        width: 76%;
+        position: static;
+        display: block;
+        margin: auto;
+    }
+    .position>form , .justi{
+        flex-direction: column;
+    }
+    .position>form>select{
+        width: 100%;
+        margin: 5px 0px;
+    }
+    .position12>form>button{
+        width: 100%;
+        margin: 5px 0px;
+    }
+    .formargin{
+        flex-direction: column;
+        align-items: normal;
+    }
+    .forparh>h2{
+        font-size: 24px;
+        text-align: right;
+        font-weight: 600;
+    }
+    .forparh{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 24px;
+    }
+    .part , .backg>section>form , .colum{
+        flex-direction: column;
+    }
+    .hh1>p{
+        font-size: 24px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .arrow2>i{
+        display: none;
+    }
+    .backg>section>h2{
+        font-size: 24px;
+    }
+    .backg>section>form>input{
+        margin: 10px 0px;
+        width: 270px;
+    }
+    .backg>section>form>button{
+        width: 67%;
+    }
+    .backg>section>form>button>i{
+        padding: 0px 10px;
+    }
+    section>ul{
+        padding: 0px 21px;
+    }
+    section>h5{
+        padding: 20px 5px;
+    }
+}
+
+
+
+
+
+
+
+
+/* for tablate */
+@media only screen and (min-width:767px) and (max-width:991px){
+    :root{
+        --orangeyello:#F76A00;
+        --fontfamily: 'Roboto', sans-serif;
+        --maxwidth: 1320px;
+        --fontfam: Open, sans-serif;
+    }
+    header>ul{
+        display: none;
+    }
+    header>figure{
+        width: 56%;
+    }
+    .fordive{
+        display: block;
+        padding: 14px;
+        background: var(--orangeyello);
+        color: white;
+        margin: 0px 12px;
+    }
+    .fordive>i{
+        color: white;
+        font-size: 20px;
+    }
+    .mainimage>h1{
+        font-size: 30px;
+    }
+    .mainimage>p{
+        text-align: center;
+        font-size: 16px;
+    }
+    .mainimage>i:first-child{
+        font-size: 28px;
+    }
+    .mainimage>i:nth-child(4){
+        font-size: 28px;
+    }
+    .position1{
+        display: none;
+    }
+    .position12{
+        width: 76%;
+        position: static;
+        display: block;
+        margin: auto;
+    }
+    .position>form{
+        flex-direction: column;
+    }
+    .position>form>select{
+        width: 100%;
+        margin: 5px 0px;
+    }
+}

@@ -1,0 +1,22 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+    .part68 , form , section{
+        flex-direction: column;
+    }
+    .part1>h5{
+        text-align: center;
+        font-weight: normal;
+        font-size: 20px;
+    }
+    .part1>h2{
+        text-align: center;
+    }
+    .four>h2{
+        font-size: 42px;
+    }
+    .over{
+    width: 65%;
+    position: relative;
+    top: -17%;
+    left: 10%;
+    }
+}

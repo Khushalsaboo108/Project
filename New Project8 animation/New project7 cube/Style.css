@@ -1,0 +1,35 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.main{
+	width: 400px;
+	height: 400px;
+	margin: 80px auto;
+	border: 5px solid black;
+	transform: rotate3d(1, 1, 1, 45deg);
+	position: relative;
+/*	perspective: 10px;*/
+}
+.inner{
+	width: 400px;
+	height: 400px;
+	margin: auto;
+/*	border: 10px solid black;*/
+	position: absolute;
+}
+.inner1{
+	transform: rotateX(270deg) translateZ(200px);
+	background: red;
+
+/*	perspective: 10px;*/
+}
+.inner2{
+	transform: rotateX(270deg) translateZ(-200px);
+	background: blue;
+/*	perspective: 10px;*/
+}
+.inner3{
+	transform: rotateY(45deg) translateZ(10px);
+	background: aqua;
+}
